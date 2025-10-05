@@ -13,9 +13,6 @@ if [ "$BUILD_OFOX" = "true" ]; then
     export OF_MAINTAINER=ZetLink
     export FOX_MAINTAINER_PATCH_VERSION=$(date +%y%m%d)
 
-    # Vanilla build
-    export FOX_VANILLA_BUILD=1
-
     # A/B
     export FOX_VIRTUAL_AB_DEVICE=1
 
@@ -33,9 +30,6 @@ if [ "$BUILD_OFOX" = "true" ]; then
 
     # Dynamic full size
     export OF_DYNAMIC_FULL_SIZE=7583301632
-
-    # Flashlight (useless?)
-    export OF_FLASHLIGHT_ENABLE=1
 
     # UI display settings
     export OF_SCREEN_H=2400
