@@ -1,4 +1,4 @@
-OrangeFox Device Tree for Motorola G52 (rhode) (Thanks [@HemanthJabalpuri](https://github.com/HemanthJabalpuri) for base tree)
+OrangeFox Device Tree for Motorola G32 (rhode) (Thanks [@HemanthJabalpuri](https://github.com/HemanthJabalpuri) for base tree)
 
 ## Device Specifications
 
@@ -35,6 +35,6 @@ Front Camera | 16 MP, f/2.5, (wide), 1.0µm
 ```bash
   export BUILD_OFOX=true
   source build/envsetup.sh
-  lunch twrp_rhode-eng
+  lunch twrp_devon-eng
   mka adbd bootimage
 ```
