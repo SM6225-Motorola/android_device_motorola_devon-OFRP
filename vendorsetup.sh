@@ -7,7 +7,7 @@ if [ "$BUILD_OFOX" = "true" ]; then
     # If you building OrangeFox, then do "export BUILD_OFOX=true"
     # See orangefox_build_vars.txt in fox_12.1/vendor/recovery/ for full list of OrangeFox variables
 
-    echo -e "[✨] Starting to add OrangeFox variables..."
+    echo -e "[✨] Starting to add OrangeFox-rhode variables..."
 
     # About
     export OF_MAINTAINER=ZetLink

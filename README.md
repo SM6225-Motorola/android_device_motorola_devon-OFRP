@@ -23,12 +23,12 @@ Front Camera | 16 MP, f/2.5, (wide), 1.0µm
 - Micro SD Card, USB OTG
 - Brightness, Time
 - Battery %, Charging, CPU Temp
+- Vibration (0% by default)
 - Slot switching (thanks to [@invisiblek](https://github.com/LineageOS/android_device_motorola_nash/commit/ba70a48f8d0ab12666d2d37e31f581697423ae02) and [@ThEMarD](https://github.com/ThEMarD))
 - Flashing ROM
 
 ### Issues
-- Vibration (removed for now)
-- touch & other issues may appear in future custom ROMs
+- Requires additional reboot once to recovery after flashing X file
 
 ### Build
 
