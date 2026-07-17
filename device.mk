@@ -11,13 +11,12 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_TARGET_VNDK_VERSION := 30
 PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+BOARD_SHIPPING_API_LEVEL := 30
+BOARD_API_LEVEL := 30
+SHIPPING_API_LEVEL := 30
 
-# Boot control hal for A/B
-PRODUCT_PACKAGES += android.hardware.boot@1.1-impl-qti \
-    android.hardware.boot@1.1-impl-qti.recovery \
-    android.hardware.boot@1.1-service update_engine \
-    fastbootd \
-    android.hardware.fastboot@1.0-impl-mock
+# Add default implementation of fastboot HAL.
+PRODUCT_PACKAGES += android.hardware.fastboot@1.1-impl-mock
 
 AB_OTA_UPDATER := true
 
